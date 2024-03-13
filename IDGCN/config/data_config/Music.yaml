@@ -1,0 +1,14 @@
+base:
+  train_data_path: ./data/Music/train.csv
+  valid_data_path: ./data/Music/val.csv
+  test_data_path: ./data/Music/test.csv
+  item_corpus_path: ./data/Music/item_corpus.csv
+  dislike_test_path: ./data/Taobao/dislike_test.csv  #not used
+  item_cate_path: ./data/Music/item_cate_dict.csv
+  max_item_id: 7867
+  max_user_id: 7629
+  batch_size: 2048
+  num_neg: 1
+  num_pos: 1
+  num_pos_user: 1
+  cate_num: 280

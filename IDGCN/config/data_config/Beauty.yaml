@@ -1,0 +1,14 @@
+base:
+  train_data_path: ./data/Beauty/train.csv
+  valid_data_path: ./data/Beauty/val.csv
+  test_data_path: ./data/Beauty/test.csv
+  item_corpus_path: ./data/Beauty/item_corpus.csv
+  dislike_test_path: ./data/Beauty/dislike_test.csv  #not used
+  item_cate_path: ./data/Beauty/item_cate_dict.csv
+  max_item_id: 5500   #item from 0
+  max_user_id: 8154  #userid from 0
+  batch_size: 2048
+  num_neg: 1
+  num_pos: 1
+  num_pos_user: 1
+  cate_num: 41

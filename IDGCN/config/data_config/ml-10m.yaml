@@ -1,0 +1,14 @@
+base:
+  train_data_path: ./data/ml-10m/train.csv
+  valid_data_path: ./data/ml-10m/val.csv
+  test_data_path: ./data/ml-10m/test.csv
+  item_corpus_path: ./data/ml-10m/item_corpus.csv
+  dislike_test_path: ./data/ml-10m/dislike_test.csv  #not used
+  item_cate_path: ./data/ml-10m/item_cate_dict.csv
+  max_item_id: 7265
+  max_user_id: 5000
+  batch_size: 2048
+  num_neg: 1
+  num_pos: 1
+  num_pos_user: 1
+  cate_num: 18

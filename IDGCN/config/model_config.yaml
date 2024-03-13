@@ -1,0 +1,24 @@
+Music-mf:
+  model_name: mf
+  embedding_dim: 64
+  max_user_id: None
+  max_item_id: None
+  tau: 0.3  #original 0.3
+Music-lightgcn:
+  model_name: lightgcn
+  embedding_dim: 64
+  max_user_id: None
+  max_item_id: None
+  n_layers: 3
+  tau: 0.3
+  mess_dropout_rate: 0.1
+Music-idgcn:
+  model_name: idgcn
+  embedding_dim: 64
+  max_user_id: None
+  max_item_id: None
+  n_layers: 3
+  tau: 0.3
+  mess_dropout_rate: 0.1
+
+
