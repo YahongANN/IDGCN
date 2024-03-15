@@ -1,17 +1,13 @@
 '''
-Created on October 1, 2020
-@author: Tinglin Huang (huangtinglin@outlook.com)
+Created on December 1, 2023
+@author: yahong lian
 '''
-import random
 
-import numpy as np
 import torch
 import torch.nn as nn
 from src.models.base_model import BaseModel
 import torch.nn.functional as F
-from src.util.spmm import SpecialSpmm, CHUNK_SIZE_FOR_SPMM
-import scipy.sparse as sp
-import time
+from src.util.spmm import SpecialSpmm
 import os
 os.environ["KMP_DUPLICATE_LIB_OK"] = 'True'
 class GraphConv(nn.Module):

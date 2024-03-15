@@ -1,7 +1,4 @@
-import logging
-
 from torch import nn
-import torch.nn.functional as F
 import torch
 from src.models.base_model import BaseModel
 
