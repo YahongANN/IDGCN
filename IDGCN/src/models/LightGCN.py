@@ -1,7 +1,6 @@
 '''
 Created on December 1, 2023
-@author: yahong lian
-'''
+@author: XXXXX
 
 import torch
 import torch.nn as nn

@@ -1,6 +1,6 @@
 '''
 Created on December 1, 2023
-@author: yahong lian
+@author: XXXX
 '''
 
 import torch
